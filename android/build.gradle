@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
+    namespace 'xyz.justsoft.video_thumbnail'
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 16
